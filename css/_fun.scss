@@ -1,0 +1,12 @@
+
+@function size($value){
+    @return $value * $unit
+
+}
+
+
+@mixin reset{
+    padding: 0;
+    margin: 0;
+    
+}

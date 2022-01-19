@@ -1,0 +1,186 @@
+
+@import "config";
+@import "fun";
+@import "mix";
+
+
+*{
+    @include reset();
+    box-sizing: border-box;
+
+}
+
+
+
+
+header{
+
+   background-color: $colorbg;
+
+}
+
+body{
+    
+    background-color: $color2bg;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    @include config ($font-family:$font, 
+    $color: $color2bg);   
+    font-size: 30px;
+    margin-bottom: 200px;
+
+}
+
+h2{
+
+    @include config ($font-family:$font, 
+                    $color: $color3bg);
+                    font-size: size(5);
+  
+}
+
+h3{
+    @include config ($font-family:$font, 
+    $color: $color3bg);    
+    font-size: size(3);
+   
+
+}
+
+h4{
+    @include config ($font-family:$font, 
+    $color: $color2bg); 
+  
+}
+
+h5{
+    
+    @include config ($font-family:$font, 
+    $color: $color2bg);   
+    font-size: 30px;
+    margin-bottom: 200px;
+ 
+ 
+}
+
+h6{
+    @include config ($font-family:$font, 
+    $color: $color3bg);
+   
+   
+}
+
+
+p{  
+   
+    @include config ($font-family:$font, 
+    $color: $color2bg); 
+
+    
+   
+}   
+
+.estilo{
+    text-align: center;
+    color: $color3bg;
+    font-size: $size;
+    background-color: $color-background1;
+    padding: 25px;
+}
+
+
+.blog1{
+    @extend .estilo;
+    
+}
+
+
+.blog2{
+    @extend .estilo;
+    background-color: $color-background2;
+}
+
+
+.blog3{
+    @extend .estilo;
+    background-color: $color-background3;
+}
+
+
+.caja1 {
+    @include img ($img2:"true");
+}
+
+
+.caja2 {
+    @include img ($img2:"false");
+}
+
+.foot {
+    color: $color3bg;
+
+}
+
+
+.tipos{  
+  background-color: #000; 
+  font-size: 13px; 
+  color:#ced4da;
+  text-align: center; 
+  
+ }
+
+
+.icono{
+
+    display:block;
+    margin:auto;
+    padding-bottom: 24px;
+    
+     
+}
+
+   
+.post{
+
+    position: relative;
+    border-radius: 5px;     
+    overflow: hidden;
+    cursor: pointer;
+       
+      
+}
+
+.post footer{ 
+    width: 0%;
+    height: auto;
+    background: rgba(154, 209, 209, .71);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 400ms ease-in-out;      
+ 
+}
+
+footer h3{      
+     
+    @include config ($font-family:$font, 
+    $color: $color2bg); 
+      
+}
+
+.post:hover footer{
+    width: 40%;
+     
+
+}
+
+  

@@ -1,0 +1,53 @@
+
+
+@mixin config ($font-family, $color){
+    font-family: $font-family;
+    color: $color;
+    text-align: center;   
+
+    
+}
+
+
+$redes: (
+    
+    red1: rgb(135, 182, 135),
+    red2: rgb(209, 216, 141),
+    red3: rgb(124, 124, 158),
+    red4: none,
+);
+
+@each $red, $fontf in $redes {
+    .btn--#{$red} {
+        
+        width: 100%;        
+        box-shadow: 0 0 5px 1px white;  
+        margin-bottom: 24px; 
+        border-radius: 5px;     
+        cursor: pointer;
+        transition: all ease-out 0.2s;
+        background-color: $fontf;      
+
+    }
+}
+
+
+@mixin img ($img2){
+    
+    width: 100%; 
+    background: black;
+    box-shadow: 0 0 5px 1px white;  
+    margin-bottom: 24px; 
+    border-radius: 5px; 
+    
+    @if ($img2 == "true") {
+
+        cursor: pointer;
+        transition: all ease-out 0.2s; 
+        &:hover{
+            transform: scale(1.05);
+        }
+        
+    }  
+    
+}

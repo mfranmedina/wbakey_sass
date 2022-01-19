@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>W Bakery</title>    
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+
+</head>
+<body>
+    <!--Menu-->
+    <header>
+    
+        <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
+
+            <div class="container mb-0">
+                <a class="navbar-brand" href="#"> 
+            
+                    <img src="img/Logo.png" alt="" width="100">
+            
+                </a> 
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarNav"                    
+                    aria-controls="navbarNav" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>   
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="Secciones/Productos.html#productos" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                        <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+
+                            <li class="nav-item"><a class="nav-link" href="Secciones/Productos.html#productos">Todos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Secciones/Productos.html#tortas">Tortas</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Secciones/Productos.html#pasteles">Pasteles</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Secciones/Productos.html#postres">Postres</a></li>
+
+
+                        </ul>
+                    </li>  
+                    
+                    <li class="nav-item"><a class="nav-link" href="Secciones/Eventos.html">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Secciones/Contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Secciones/Blog.html">Blog</a></li>
+
+                </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <!--Carrusel-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/tartaqueso.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-1">Pasteleria Artesanal</h2>                                                     
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/carrusel.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-1">Ingredienes Seleccionados</h2>                  
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/helada.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="display-1">Torta helada</h2>                  
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <br>
+         <!--Favoritos-->
+        <div class="container">           
+            <div class="row">
+                <div class="col">
+                    <img src="img/cup-cake.png" alt="" width="50px" height="70px" class="icono">
+                    <h2>Favoritos</h2>
+                    <p>Para endulzar el día</p>                    
+               </div>
+               <hr>
+            </div>
+        </div>
+       
+        <div class="container text-center">           
+            <div class="row">
+                <div class="col-sm">
+                    <a class="" href="#">                                            
+                    <img src="img/torta_choco.jpg" alt="" class="img">
+                    </a> 
+                    <h3>Torta de Chocolate</h3>
+                </div>
+                <div class="col-sm">                     
+                    <a class="" href="#">                                            
+                    <img src="img/torta_mora.jpg" alt="" class="img">
+                    </a> 
+                    <h3>Torta de Mora</h3>
+                </div>
+                <div class="col-sm">  
+                    <a class="" href="#">  
+                    <img src="img/volcan.jpg" alt="" class="img">
+                    </a> 
+                    <h3>Volcán de Chocolate</h3>
+                </div>   
+                <hr>               
+            </div>
+        </div>      
+        <br>
+         <!--Separación-->
+        <div class="tipos">
+            <div class="row">
+                <div class="col-sm"> 
+                    <img src="img/tipos.jpg" alt="" class="w-50 d-none d-md-block">                       
+                    
+                </div>                      
+                <div class="col-sm-3 p-4" >                        
+                    <h4 class="p-4 fs-5">Pasteleria Artesanal</h4>   
+                    <p>Somos una pastelería artesanal e inclusiva. Todos nuestros productos son sin gluten, con opciones sin azúcar, sin lácteos, veganas o incluso keto.</p>
+                        
+                </div>
+                <div class="col-sm-3 p-4">
+                    <h4 class="p-4 fs-5">Ingredientes de selección</h4>   
+                    <p>Trabajamos a mano, desde cero, sin premezclas ni aditivos, utilizando siempre los mejores ingredientes. La presentación de nuestros productos es única.</p>
+                        
+                </div>
+                <div class="col-sm-3 p-4">
+                        <h4 class="p-4 fs-5">Nuestro entorno</h4>   
+                       <p>Cuidamos nuestro entorno. Sólo usamos ingredientes de locales; reciclamos nuestros desechos y nuestros envases también son reciclables.</p>
+                        
+                </div>  
+                <div class="col-sm"> 
+                    <img src="img/tipos.jpg" alt="" class="w-50 d-none d-md-block">                       
+                    
+                </div>               
+           </div>
+        </div>
+        <br>
+         <!--blog-->
+         <div class="container-fluid">           
+            <div class="row">
+                <div class="col">
+                    <img src="img/cup-cake.png" alt="" width="50px" height="70px" class="icono">
+                    <h2>Blog Pastelero y más</h2>
+                    <p>Datos que debes conocer</p>
+                    <hr>
+               </div>
+            </div>
+        </div>
+       
+        <div class="container text-center">           
+            <div class="row">
+                <div class="col-sm">
+                    <a class="" href="#">                                            
+                        <img src="img/frutillas.jpg" alt="" class="img">
+                    </a> 
+                        <h3>Beneficios de las frutillas</h3>
+                </div>
+                <div class="col-sm">                     
+                    <a class="" href="#">                                            
+                    <img src="img/miel.jpg" alt="" class="img">
+                    </a> 
+                    <h3>Miel de oro</h3>
+                </div>
+                <div class="col-sm">  
+                    <a class="" href="#">  
+                    <img src="img/cocinando.jpg" alt="" class="img">
+                    </a> 
+                    <h3>Cocinar con los hijos</h3>
+                </div>                  
+            </div>
+            <hr>
+        </div>      
+        <br>
+         <!--Despachos-->
+         <div class="tipos">
+            
+                <div class="row">
+                    <div class="col-sm bg-warning"> 
+                        <img src="img/tipos.jpg" alt="" class="d-none d-md-block">                     
+                        
+                    </div>      
+                    <div class="col-sm p-4">
+                        <h4 class="p-2">Despachos</h4>  
+                            <p>Envíos de lunes a domingo</p>                           
+                            <p>Horario de entrega: entre las 9:00 y las 18:00</p>
+                            <p>Comunas y precios:</p>
+                            <p>Cerrillos, Cerro Navia, Conchalí, El Bosque, Estación Central, Huechuraba, Independencia, La Florida, La Reina, Las Condes, Lo Barnechea, Macul, Ñuñoa, Pedro Aguirre Cerda, Peñalolén, Providencia, Puente Alto, Quinta Normal, Recoleta, Renca, San Joaquín, San Miguel, San Ramón, Santiago Centro, Vitacura: $4.000
+                                Maipú, Pudahuel, Quilicura, San Bernardo: $5.000 clp.</p>
+                        
+                        
+                    </div>
+                    <div class="col-sm bg-warning"> 
+                        <img src="img/tipos.jpg" alt="" class="d-none d-md-block">                     
+                        
+                    </div>
+                </div>
+            
+        </div>
+        
+
+        <!--Horarios-->
+        <div class="container text-center">           
+            <div class="row">
+                <div class="col">  
+                    <img src="img/cup-cake.png" alt="" width="50px" height="90px" class="icono pt-4">                                      
+                    <h4 class="text-center">Horarios de Atención</h4>
+                    <p class="text-center">¡Ven a visitarnos!</p>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                            <i class="text-md-start">LUNES - MIÉRCOLES</i>
+                        </div>
+                        <div class="col">                     
+                            <b>9:30 HRS - 18:00 HRS</b>                           
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <i class="text-md-start">JUEVES - SABADOS</i>
+                        </div>
+                        <div class="col">                     
+                            <b>8:30 HRS - 18:30 HRS</b>                           
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <i class="text-md-start">DOMINGOS</i>
+                        </div>
+                        <div class="col">                     
+                            <b>9:30 HRS - 14:00 HRS</b>                           
+                        </div>                        
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                           <i>Avenida El Cerro 1953, Providencia</i>
+                           <br>
+                           <i>TEL (+56) 993385139</i>
+                        </div>
+                          
+                    </div>                                
+                                                     
+                </div>               
+                <div class="col">                     
+                                                              
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.245793895844!2d-70.62118138520974!3d-33.416835680783606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf5fac0a832b%3A0xcd1c711c6cc31fb8!2sAv.%20El%20Cerro%201953%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1638616338973!5m2!1ses-419!2scl" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                     
+                </div>                             
+            </div>
+        </div>          
+
+    </main>
+    <!--Footer-->
+    <footer class="bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                        <div class="container-fluid d-flex justify-content-center p-5">
+                            <img src="img/Logo.png" alt="" width="100">
+                           
+                        </div>
+                    <div class="container d-flex justify-content-center pb-5">
+                        <button type="button" class="btn btn-lg">
+                            <img src="img/logo facebook.jpeg" alt="" width="25">
+                        </button>
+                        <button type="button" class="btn btn-lg">
+                            <img src="img/logo instagram.jpeg" alt="" width="25">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2021 W Bakery. Todos los derechos reservados              
+            </div>
+        </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+    </footer>
+</body>
+</html>
+<!--
+<div class="tipos">
+    <img src="img/tipos.jpg" alt="" class=" ">
+    <div class="container p-4">
+        
+        <div class="row">
+         
+            <div class="col-sm p-4" >                        
+                <h4 class="p-4">Pasteleria Artesanal</h4>   
+               <p>Somos una pastelería artesanal e inclusiva. Todos nuestros productos son sin gluten, con opciones sin azúcar, sin lácteos, veganas o incluso keto.</p>
+                
+            </div>
+            <div class="col-sm p-4">
+                <h4 class="p-4">Ingredientes de selección</h4>   
+               <p>Trabajamos a mano, desde cero, sin premezclas ni aditivos, utilizando siempre los mejores ingredientes. La presentación de nuestros productos es única.</p>
+                
+            </div>
+            <div class="col-sm p-4">
+                <h4 class="p-4">Nuestro entorno</h4>   
+               <p>Cuidamos nuestro entorno. Sólo usamos ingredientes de locales; reciclamos nuestros desechos y nuestros envases también son reciclables.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+-->
